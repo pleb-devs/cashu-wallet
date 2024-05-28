@@ -63,6 +63,7 @@ main {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  color: black;
 }
 
 .section button {
@@ -78,7 +79,7 @@ main {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(110, 107, 107, 0.1);
   width: 400px;
-  height: 500px;
+  height: auto;
   overflow-y: auto;
 }
 
@@ -88,6 +89,7 @@ main {
 
 .data-output {
   background-color: #f8f9fa;
+  color: black;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
