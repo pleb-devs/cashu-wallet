@@ -29,6 +29,7 @@ export const useProofStorage = () => {
   };
 
   const removeProofs = (proofsToRemove) => {
+    if (!proofsToRemove) return;
     setProofs((prevProofs) =>
       prevProofs.filter((proof) => !proofsToRemove.includes(proof))
     );
